@@ -1,0 +1,119 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Axiel Almeda Tomas*/
+/*  Correo electrónico (uniovi): uo306090@uniovi.es*/
+/*  Grupo de laboratorio:                */
+/* ***************************************/
+
+/* Gama cromática
+Color principal (#684F41)
+ - Contraste de 7.54:1 con color blanco
+ - Contraste de 6.76:1 con color secundario
+Color secundario (#F9F0F5)
+ - Contraste de 18.81:1 con color negro
+ - Contraste de 6.76:1 con color principal
+Color Blanco (#FFFFFF)
+ - Contraste de 21:1 con color negro
+ - Contraste de 7.54:1 con color principal
+Color Negro (#000000)
+ - Contraste de 21:1 con color blanco
+ - Contraste de 18.81:1 con color secundario
+*/
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #684F41;
+    --color-secundario: #F9F0F5;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+}
+
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001,001 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+/* Especificidad: 002,002 */
+header a, footer a {
+    color: var(--color-blanco);
+    /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration: none;
+}
+
+/* Especificidad: 012 */
+nav a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Especificidad: 003 */
+header + nav > ol {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:nth-child(3) {
+    font-size: 1.5em;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em 0;
+}
+
+/* Especificidad: 001 */
+caption {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+/* Especificidad: 001,001 */
+th, td {
+    border: 1px solid var(--color-principal);
+    padding: 0.5em;
+    text-align: left;
+}
+
+/* Especificidad: 001 */
+th {
+    background-color: var(--color-secundario);
+    color: var(--color-negro);
+}

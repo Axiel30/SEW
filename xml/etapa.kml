@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Planimetría de la Etapa</name>
+  <Style id="rojo"><IconStyle><color>ff0000ff</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="verde"><IconStyle><color>ff00ff00</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="azul"><IconStyle><color>ffff0000</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="amarillo"><IconStyle><color>ff00ffff</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="linea"><LineStyle><color>ff0000ff</color><width>4</width></LineStyle></Style>
+  <Placemark>
+    <name>Cortegana</name>
+    <description>Salida de la etapa</description>
+    <styleUrl>#rojo</styleUrl>
+    <Point>
+      <coordinates>-6.837,37.915,610.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto De Fuenteheridos (2ª Categoría)</name>
+    <description>Puerto de Montaña</description>
+    <styleUrl>#verde</styleUrl>
+    <Point>
+      <coordinates>-6.700,37.900,740.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sprint Intermedio Bonificado (Villarrasa)</name>
+    <description>Sprint Intermedio</description>
+    <styleUrl>#azul</styleUrl>
+    <Point>
+      <coordinates>-6.879,37.458,70.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.800,37.910,530.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.750,37.905,680.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.650,37.895,700.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.500,37.850,550.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.480,37.820,320.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.520,37.780,550.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.550,37.750,380.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.600,37.650,300.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.610,37.600,200.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.620,37.550,350.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.600,37.500,120.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.580,37.450,320.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.560,37.420,110.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.555,37.400,80.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.850,37.400,50.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.800,37.350,15.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.780,37.300,10.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.860,37.250,15.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.900,37.210,35.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.901,37.205,10.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.902,37.200,20.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Rábida. Palos de la Frontera</name>
+    <description>Meta de la etapa</description>
+    <styleUrl>#rojo</styleUrl>
+    <Point>
+      <coordinates>-6.903,37.195,12.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Planimetría (Ruta completa)</name>
+    <styleUrl>#linea</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-6.837,37.915,610.0 -6.800,37.910,530.0 -6.750,37.905,680.0 -6.700,37.900,740.0 -6.650,37.895,700.0 -6.560,37.890,660.0 -6.500,37.850,550.0 -6.480,37.820,320.0 -6.520,37.780,550.0 -6.550,37.750,380.0 -6.590,37.690,410.0 -6.600,37.650,300.0 -6.610,37.600,200.0 -6.620,37.550,350.0 -6.600,37.500,120.0 -6.580,37.450,320.0 -6.560,37.420,110.0 -6.555,37.400,80.0 -6.879,37.458,70.0 -6.850,37.400,50.0 -6.800,37.350,15.0 -6.780,37.300,10.0 -6.860,37.250,15.0 -6.900,37.210,35.0 -6.901,37.205,10.0 -6.902,37.200,20.0 -6.903,37.195,12.0</coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>
